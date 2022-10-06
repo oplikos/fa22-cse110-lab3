@@ -10,7 +10,7 @@
 
 ---
 
-***Screenshot for W3 *** 
+***Screenshot for W3*** 
 
 ---
 
@@ -19,6 +19,9 @@
 ---
 
 ***Part 2 txt file***
+
+---
+
 
 [to part 2.txt](part2.txt)
 
