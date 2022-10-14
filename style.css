@@ -1,4 +1,30 @@
 body {
-    background-color: url("/img/background.jpg")
+    background-image: url("/img/background.jpg");
+    background-size: 5000px;
   }
- 
+  .wrapper {
+    font-size: 1em;
+  }
+  
+  .px {
+    width: 200px;
+  }
+  
+  .vw {
+    width: 10vw;
+  }
+  
+  .em {
+    width: 10em;
+  }
+  html {
+    font-size: 16px;
+  }
+  
+  .ems li {
+    font-size: 1.3em;
+  }
+  
+  .rems li {
+    font-size: 1.3rem;
+  }

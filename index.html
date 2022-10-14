@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  /*internal*/
-  
+  <style>
+    /* Internal*/
+    h1   {color: blue;}
+    p    {color: red;}
+  </style>
   <head>
-    <style>
-        /* Internal*/
-        h1   {color: blue;}
-        p    {color: red;}
-    </style>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +13,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="Icon/icon1.ico">
   </head>
   <body>
+    
     <header>
       /*inline edite to change the main color to diffrent one*/
     <h1 style="color:green;">Team 11 meeting</h1>
@@ -22,19 +21,23 @@
       <nav>
         <fieldset>
             <label>Check mark whos present</label>
-        <ul>
-          <li><input type="checkbox">Sarkis Bouzikian</li>
-          <li><input type="checkbox">Alexander Kourjanski</li>
-          <li><input type="checkbox">Daniel Ziper</li>
-          <li><input type="checkbox">Dante</li>
-          <li><input type="checkbox">Darek Zhu</li>
-          <li><input type="checkbox">Ella</li>
-          <li><input type="checkbox">Kenry</li>
-          <li><input type="checkbox">Kyrell</li>
-          <li><input type="checkbox">Pat</li>
+        <ul class="em">
+          <li><input href="names" type="checkbox">Sarkis Bouzikian</li>
+          <li><input href="names" type="checkbox">Alexander Kourjanski</li>
+          <li><input href="names" type="checkbox">Daniel Ziper</li>
+          <li><input href="names" type="checkbox">Dante</li>
+          <li><input href="names" type="checkbox">Darek Zhu</li>
+          <li><input href="names" type="checkbox">Ella</li>
+          <li><input href="names" type="checkbox">Kenry</li>
+          <li><input href="names" type="checkbox">Kyrell</li>
+          <li><input href="names" type="checkbox">Pat</li>
         </ul>
         </fieldset>
-        
+        <div class="wrapper">
+          <div class="box px">I am 200px wide</div>
+          <div class="box vw">I am 10vw wide</div>
+          <div class="box em">I am 10em wide</div>
+        </div>
         <br><br>
       </nav>
     </header>
@@ -49,21 +52,22 @@
         <input type="submit" value="Submit">
       </form>
     <main>
-      <h1>First meeting</h1>
-      <h2>Introduction</h2>
+      
+      <h1 id="titleBig">First meeting</h1>
+      <h2 id="titleMid">Introduction</h2>
       <ol>
         <li> ice breaking session get to know each other</li>
         <li> go over some expectation from the team work</li>
       </ol>
-      <h2>Whats Next</h2>
-      <h3>daily report</h3>
+      <h2 id="titleBig">Whats Next</h2>
+      <h3 id="titleNor">daily report</h3>
       <p> 
         <i>make sure to fill the daily reports</i> to keep us inform how is everything
         going on with the team. 
       </p>
-      <h4>To fill up the when2meet</h4>
+      <h4 id="titleSmall">To fill up the when2meet</h4>
       <p>
-    <textarea name="when2meet" rows="6" cols="60">to know each team mate schedule lets fill the When2meet as soon as we releast so we can start schedualing out team weekly meeting
+    <textarea id="when2meet" name="when2meet" rows="6" cols="60">to know each team mate schedule lets fill the When2meet as soon as we releast so we can start schedualing out team weekly meeting
     </textarea>
       </p>
       <details>
