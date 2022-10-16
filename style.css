@@ -2,29 +2,26 @@ body {
     background-image: url("/img/background.jpg");
     background-size: 5000px;
   }
+  h1 {
+    color: #000000;
+    background-color: rgb(115, 255, 0);
+  }
+  div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
   .wrapper {
+    background-color: rgba(8, 0, 255, 0.62);
     font-size: 1em;
   }
-  
   .px {
     width: 200px;
   }
-  
   .vw {
     width: 10vw;
   }
-  
   .em {
     width: 10em;
-  }
-  html {
-    font-size: 16px;
-  }
-  
-  .ems li {
-    font-size: 1.3em;
-  }
-  
-  .rems li {
-    font-size: 1.3rem;
   }
