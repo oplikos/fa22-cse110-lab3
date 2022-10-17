@@ -1,27 +1,101 @@
+
+/* this is for body of the web */
 body {
   background-image: url("/img/background.jpg");
   background-size: 5000px;
 }
+/* every h1 will have this  */
 h1 {
   color: #000000;
   background-color: rgb(115, 255, 0);
 }
+/* making a box with some relative and absulte sizes*/
 div {
   width: 300px;
   border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+  padding: 0.5in;/*inches*/
+  margin-top: -2vh;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  margin-left: --2vw;
 }
+/*wrapping it */
 .wrapper {
   background-color: rgba(8, 0, 255, 0.62);
   font-size: 1em;
 }
+/*using diffrent sizes PX  absuluute*/
 .px {
   width: 200px;
 }
+/*abulote*/
+.cm {
+  width: 5cm;
+}
+/*relative to width */
 .vw {
   width: 10vw;
 }
+/*relative lenght */
 .em {
   width: 10em;
+}
+p {
+  margin: 25px 50px 75px 100px;
+}
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}  
+.box2 {
+  padding-top: 0;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 4em;
+  background-color: rgb(255, 106, 0);
+}
+
+.container {
+  width: 300px;
+  border: 15px solid rgb(255, 0, 0);
+  background-color: hsl(237, 93%, 36%);
+    color: hsl(0, 0%, 100%);
+  padding: 20px;
+   padding: 25px 25px 25px 25px;
+  
+}
+.box3 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-style:auto;
+  border-color:;
+  border-width:;
+  border-radius:;
+}
+.container2 {
+  width: 300px;
+  border: 15px solid rgb(1, 28, 35);
+  background-color: hsl(237, 82%, 63%);
+    color: hsl(0, 52%, 68%);
+   padding: 25px 25px 25px 25px;
+  font-size: 2vw;
+  text-decoration-line: underline overline;
+  text-decoration-thickness: from-font;
+  font-size: 2rem;
 }
