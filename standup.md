@@ -17,7 +17,7 @@ Team member info:<br>
 - [x] Derek Zhu - Developer (daz005@ucsd.edu)<br>
 - [x] Ella Tung - Developer (etung@ucsd.edu)
 ---
-##Question to answer for the Stand up:
+Question to answer for the Stand up:
 
 What have you done since yesterday?
 
