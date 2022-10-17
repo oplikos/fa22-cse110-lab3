@@ -1,8 +1,26 @@
 /* this is for body of the web */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 body {
   background-image: url("/img/background.jpg");
-  background-size: 5000px;
+  background-size: 50px;
 }
+@font-face {
+  font-family: arlamu;
+  src: url(http://demo.softty.net/host/ARLAMU.ttf);
+}
+@font-face {
+  font-family: arnamu;
+  src: url(http://demo.softty.net/host/arianamu.ttf);
+}
+
+.myName {
+  font-family: arlamu;
+}
+
 /* every h1 will have this  */
 h1 {
   display: block;
@@ -151,7 +169,7 @@ button:hover {
   background-color: #fff;
   color: #444;
 }
-.box3 {
+div > box3 {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
