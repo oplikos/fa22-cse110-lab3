@@ -1,27 +1,175 @@
+/* this is for body of the web */
 body {
   background-image: url("/img/background.jpg");
   background-size: 5000px;
 }
+/* every h1 will have this  */
 h1 {
+  display: block;
   color: #000000;
   background-color: rgb(115, 255, 0);
 }
+/* making a box with some relative and absulte sizes*/
 div {
-  width: 300px;
+  max-width: 300px;
   border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+  padding: 0.5in;/*inches*/
+  margin-top: -2vh;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  margin-left: --2vw;
 }
-.wrapper {
+/*wrapping it */
+.forTesting {
+
   background-color: rgba(8, 0, 255, 0.62);
   font-size: 1em;
 }
+/*using diffrent sizes PX  absuluute*/
 .px {
-  width: 200px;
+  min-width: 200px;
 }
+/*abulote*/
+.cm {
+  position: relative;
+  top: 85px; left: 20px; 
+  width: 5cm;
+}
+/*relative to width */
 .vw {
+  position: static;
   width: 10vw;
 }
+/*relative lenght */
 .em {
+  position: sticky;
+  top: 20px;
   width: 10em;
+}
+p {
+  margin: 25px 50px 75px 100px;
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+.namesList {
+  width: 50%;
+  border: 2px rgb(86, 1, 1);
+  margin: 1em 0;
+  text-align: center;
+}
+  ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    width: 100%;
+    padding-left: 0;
+  }
+  li {
+    border: 2px solid blue;
+    padding: .5em;
+    list-style: none;
+    justify-content: center;
+    display: inline-block;
+    width: 6vw;
+    height: 6vh;
+    text-align: center;
+  }
+.block {
+  display: block;
+}  
+.box2 {
+  padding-top: 0;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 4em;
+  background-color: rgb(255, 106, 0);
+}
+
+.container {
+  width: 300px;
+  border: 15px solid rgb(255, 0, 0);
+  background-color: hsl(237, 93%, 36%);
+    color: hsl(0, 0%, 100%);
+  padding: 20px;
+   padding: 25px 25px 25px 25px;
+  
+}
+.box3 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-style:auto;
+  border-color:rgb(255, 255, 255);
+  border-width:10px;
+  border-radius:2px;
+}
+.container2 {
+  width: 300px;
+  border: 15px solid rgb(1, 28, 35);
+  background-color: hsl(237, 82%, 63%);
+    color: hsl(0, 52%, 68%);
+   padding: 25px 25px 25px 25px;
+  font-size: 2vw;
+  text-decoration-line: underline overline;
+  text-decoration-thickness: from-font;
+  font-size: 2rem;
+  text-align:justify ;
+}
+button:hover {
+  color: blue;
+}
+.subscribe {
+  align-items:center;
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #476948 40%, #8d3202);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.subscribe:active {
+  box-shadow: 2px 2px 5px #b8efd2;
+}
+.flexingthisone{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  border: 2px solid rgb(255, 0, 0);
+  display: inline-flex;
+  text-align: center;
+}
+
+.griding {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100px 100px 100px;
+  background-color: #fff;
+  color: #444;
+}
+.box3 {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+.la {
+  grid-column: 1 / span 2;
+}
+.fr {
+  grid-column: 3 ;
+  grid-row: 1 / span 2;
+}
+.oc {
+  grid-column: 1 ;
+  grid-row: 2 ;
+}
+.sd {
+  grid-column: 2 ;
+  grid-row: 2 ;
 }
